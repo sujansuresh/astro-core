@@ -43,10 +43,11 @@ def get_birth_data(date_str, time_str, place_str):
         "input_date": date_str,
         "input_time": time_str,
         "input_place": place_str,
-        "latitude": lat,
-        "longitude": lon,
         "timezone": str(timezone),
         "utc": utc_dt.strftime("%Y-%m-%d %H:%M"),
         "utc_offset": utc_offset,
-        "julian_day": jd
+        "julian_day": jd,
+        "latitude": lat,
+        "longitude": lon,
+        "datetime_obj": full_datetime  # ✅ This is what master.py expects!
     }

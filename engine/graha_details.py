@@ -1,5 +1,6 @@
  # graha_details.py
 from engine.rasi_chart import SIGNS, to_dms_string
+from engine.rasi_chart import get_rasi_chart
 
 # Nakshatra data: (Name, Lord)
 NAKSHATRAS = [
@@ -79,3 +80,8 @@ def get_graha_detail_table(rasi_chart):
 
 
     return graha_table
+
+
+def get_graha_details(jd, latitude, longitude):
+    rasi_chart = get_rasi_chart(jd, latitude, longitude)
+    return get_graha_detail_table(rasi_chart)
