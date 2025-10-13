@@ -97,8 +97,6 @@ This work is a humble offering to Sri Ramana Maharshi, the eternal guiding light
 👨‍💻 Contributors
 Suj, Vijay, Saravanan
 Jack Arunachala
-ChatGPT (OpenAI) — Your cosmic dev buddy ✨
-
 
 ---
 
