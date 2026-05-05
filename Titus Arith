@@ -1,0 +1,88 @@
+arithmetic-operator-app/        # Root project folder containing entire full-stack application
+│
+├── frontend/                   # Frontend UI built with Node.js (React/Vite app)
+│   ├── public/                 # Static assets like favicon, index.html, images
+│   │
+│   ├── src/                    # Main source code for frontend logic
+│   │   ├── components/         # Reusable UI components for calculator features
+│   │   │   ├── Calculator.jsx  # Main calculator container combining display + keypad logic
+│   │   │   ├── Display.jsx     # Shows current input/output expression to user
+│   │   │   ├── Keypad.jsx      # Handles button inputs (numbers, operators)
+│   │   │   └── HistoryPanel.jsx # Displays user's past calculation logs
+│   │   │
+│   │   ├── pages/              # Page-level components mapped to routes
+│   │   │   ├── Home.jsx        # Landing page (entry UI before login/dashboard)
+│   │   │   ├── Login.jsx       # User authentication screen
+│   │   │   └── Dashboard.jsx   # Main app screen with calculator + history
+│   │   │
+│   │   ├── services/           # Handles API communication with backend
+│   │   │   └── api.js          # Centralized API calls (login, calculate, fetch logs)
+│   │   │
+│   │   ├── utils/              # Helper functions for local calculations or formatting
+│   │   │   └── mathHelpers.js  # Optional local math logic (fallback or validation)
+│   │   │
+│   │   ├── App.jsx             # Root React component managing routing/layout
+│   │   └── main.jsx            # Entry point that renders React app to DOM
+│   │
+│   ├── package.json            # Defines dependencies, scripts, and project metadata
+│   └── vite.config.js          # Build tool configuration (dev server, bundling)
+│
+├── backend-java/               # Java-based calculation engine (core math logic)
+│   ├── src/                   # Java source code root
+│   │   ├── main/java/com/app/ # Base package namespace for application
+│   │   │   ├── controller/     # Handles incoming requests if exposed via REST
+│   │   │   ├── service/        # Business logic layer (actual arithmetic operations)
+│   │   │   ├── model/          # Data models used internally by Java app
+│   │   │   └── CalculatorService.java # Core class executing arithmetic operations
+│   │   │
+│   │   └── resources/          # Config files (application properties, etc.)
+│   │
+│   ├── pom.xml                 # Maven build configuration (dependencies, build steps)
+│   └── application.properties  # Configuration file (ports, env settings)
+│
+├── api-fastapi/                # Python FastAPI layer acting as API gateway + orchestrator
+│   ├── app/                    # Core application folder
+│   │   ├── main.py             # Entry point initializing FastAPI app and routes
+│   │   │
+│   │   ├── routes/             # API endpoint definitions
+│   │   │   ├── auth.py         # Handles login, signup, token generation
+│   │   │   ├── calculator.py   # API endpoint for performing calculations
+│   │   │   └── logs.py         # API endpoint for fetching/storing calculation history
+│   │   │
+│   │   ├── services/           # Business logic layer for API operations
+│   │   │   ├── calculator_service.py # Calls Java backend or processes calculations
+│   │   │   └── auth_service.py # Handles authentication logic (password hashing, validation)
+│   │   │
+│   │   ├── models/             # Database models (ORM mapping to tables)
+│   │   │   ├── user.py         # User table schema (id, username, password)
+│   │   │   └── calculation.py  # Stores user calculations and results
+│   │   │
+│   │   ├── schemas/            # Request/response validation schemas (Pydantic)
+│   │   │   ├── user_schema.py  # Input/output validation for user APIs
+│   │   │   └── calc_schema.py  # Input/output validation for calculation APIs
+│   │   │
+│   │   ├── core/               # Core configurations and security utilities
+│   │   │   ├── config.py       # Environment config (DB URL, secrets)
+│   │   │   ├── security.py     # JWT token generation and validation
+│   │   │   └── database.py     # Database connection setup (SQLAlchemy engine/session)
+│   │   │
+│   │   └── utils/
+│   │       └── logger.py       # Logging utility for debugging and audit trails
+│   │
+│   ├── requirements.txt        # Python dependencies list (FastAPI, SQLAlchemy, etc.)
+│   └── alembic/                # Optional DB migration tool for schema versioning
+│
+├── database/                   # Database storage layer
+│   └── app.db                  # SQLite database file storing users and logs
+│
+├── auth-module/                # Optional modular auth system (future scalability)
+│   └── README.md               # Documentation explaining auth module usage
+│
+├── docs/                       # Documentation for developers and architecture
+│   ├── api-spec.md             # API contract and Swagger notes
+│   └── architecture.md         # High-level system design explanation
+│
+├── .env                        # Environment variables (JWT secret, DB config)
+├── docker-compose.yml          # Container orchestration config for full stack (optional)
+├── README.md                   # Project overview, setup instructions, usage guide
+└── .gitignore                  # Specifies files/folders Git should ignore
