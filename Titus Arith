@@ -86,3 +86,24 @@ arithmetic-operator-app/        # Root project folder containing entire full-sta
 ├── docker-compose.yml          # Container orchestration config for full stack (optional)
 ├── README.md                   # Project overview, setup instructions, usage guide
 └── .gitignore                  # Specifies files/folders Git should ignore
+
+
+
+
+Titus - Architecture Readiness
+
+Problem - I need to have an arithmetic operator app, that handles addition, subtraction, multiplication, and devision, for now, which can extend to log and trigonometry functions as well. The key audience of the product will be end users. The users will have logs of computations they have executed. 
+
+Architecture
+
+Front end module
+Backend module
+Auth Module
+DB module
+
+what do you need
+Github - account created - need to learn how git works
+Backend - Java - code is ready
+Front end - Node.js - install and run node js
+APIs - FastAPI - swagger (install)
+Create a sqlite database - use auth module and loging module
