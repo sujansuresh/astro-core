@@ -1,0 +1,87 @@
+{
+  "_tier": "Tier 2 sentence frames + Tier 3 passage blueprints — CAREER domain",
+  "_status": "DRAFT v0.1 English — awaiting Machan's line-by-line correction; corrected version IS the library",
+  "blueprints": {
+    "A": {
+      "_comment": "transit strong AND dasha agrees — build-up structure",
+      "sequence": [
+        { "kind": "frame",  "key": "FRAME.AXIS_HEADLINE" },
+        { "kind": "flush" },
+        { "kind": "bridge", "key": "BRIDGE.A.LEAD" },
+        { "kind": "frame",  "key": "FRAME.LEAD_CONTACT" },
+        { "kind": "frame",  "key": "FRAME.DASHA_AGREES" },
+        { "kind": "frame",  "key": "FRAME.TIMELINE" },
+        { "kind": "flush" }
+      ]
+    },
+    "B": {
+      "_comment": "transit strong BUT dasha silent — tempered structure",
+      "sequence": [
+        { "kind": "frame",  "key": "FRAME.AXIS_HEADLINE" },
+        { "kind": "flush" },
+        { "kind": "frame",  "key": "FRAME.LEAD_CONTACT" },
+        { "kind": "bridge", "key": "BRIDGE.B.TEMPER" },
+        { "kind": "frame",  "key": "FRAME.DASHA_SILENT" },
+        { "kind": "frame",  "key": "FRAME.TIMELINE" },
+        { "kind": "flush" }
+      ]
+    },
+    "C": {
+      "_comment": "mixed signals — while-yet structure",
+      "sequence": [
+        { "kind": "frame",  "key": "FRAME.AXIS_HEADLINE" },
+        { "kind": "bridge", "key": "BRIDGE.C.WHILE" },
+        { "kind": "frame",  "key": "FRAME.LEAD_CONTACT" },
+        { "kind": "frame",  "key": "FRAME.TIMELINE" },
+        { "kind": "flush" }
+      ]
+    }
+  },
+  "fragments": {
+    "FRAME.AXIS_HEADLINE": "From {window_start} to {window_end}, Rahu crosses {sign} while Ketu works the opposite sign — a transit that, for your chart, bears directly on career matters.",
+    "FRAME.LEAD_CONTACT": "as Rahu crosses your {planet}, the planet most tied to your professional standing, that channel enters a visible build-up;",
+    "FRAME.DASHA_AGREES": "and because the running sub-period belongs to this same channel, this touch speaks at full volume.",
+    "FRAME.DASHA_SILENT": "the running sub-period does not yet echo this channel, so the full delivery waits for a period that does.",
+    "FRAME.TIMELINE": "The build-up begins around {date_rise}, stands at its peak near {date_peak}, and has fully released by {date_release}.",
+
+    "ANSWER.FAVORABLE.CAREER": "For career, this transit is favourable: the window around {date_peak} is when a move — promotion, role change, or recognition — has the strongest support.",
+    "ANSWER.MIXED.CAREER": "For career, this transit is mixed: genuine openings exist, but they come attached to pressure that must be managed deliberately.",
+    "ANSWER.CHALLENGING.CAREER": "For career, this transit asks for consolidation rather than bold moves; the support structures are thin until the window turns.",
+    "ANSWER.FAVORABLE.GENERIC": "For the matter asked, this transit is favourable, with the strongest support near {date_peak}.",
+    "ANSWER.MIXED.GENERIC": "For the matter asked, this transit is mixed — openings exist alongside pressure.",
+    "ANSWER.CHALLENGING.GENERIC": "For the matter asked, this transit asks for patience and consolidation.",
+
+    "REASON.AXIS.BOTH_FAVORABLE": "Both nodes occupy supportive houses from your Moon sign, so the general tide of the period runs with you.",
+    "REASON.AXIS.ONE_FAVORABLE": "One node occupies a supportive house from your Moon sign, giving the period a working base of support.",
+    "REASON.LANDLORD.YOGAKARAKA": "The lord of the sign Rahu crosses is your chart's yogakaraka — the transit is hosted by the planet best placed to deliver for you.",
+    "REASON.LANDLORD.STRONG": "The lord of the sign Rahu crosses is strong, so the transit's promises have a capable host.",
+    "REASON.CONTACT.STRONG.MOON": "Your Moon — the mind and the public-facing self — is strong by position, so Rahu's touch amplifies rather than unsettles.",
+    "REASON.CONTACT.STRONG.VENUS": "Your Venus is strong by position, so Rahu's touch on it delivers gains through comfort, alliances, and creative capital.",
+    "REASON.CONTACT.STRONG.SATURN": "Your Saturn is strong by position, so Rahu's touch on it rewards discipline with visible, durable results.",
+    "REASON.CONTACT.STRONG.MARS": "Your Mars is strong by position, so Rahu's touch on it converts drive into decisive professional moves.",
+    "REASON.CONTACT.SUPPORTIVE.MOON": "The Moon carries a supportive functional role for your ascendant, so her contact works in your favour.",
+    "REASON.CONTACT.SUPPORTIVE.VENUS": "Venus carries a supportive functional role for your ascendant, so this contact works in your favour.",
+    "REASON.CONTACT.SUPPORTIVE.SATURN": "Saturn carries a supportive functional role for your ascendant, so this contact works in your favour.",
+    "REASON.CONTACT.SUPPORTIVE.MARS": "Mars carries a supportive functional role for your ascendant, so this contact works in your favour.",
+    "REASON.DASHA.AGREES.MOON": "The Moon's own sub-period runs at the contact's peak — the promise and the period point the same way.",
+    "REASON.DASHA.AGREES.VENUS": "The running sub-period echoes Venus's channel at the contact's peak — promise and period point the same way.",
+    "REASON.DASHA.AGREES.SATURN": "The running sub-period echoes Saturn's channel at the contact's peak — promise and period point the same way.",
+    "REASON.DASHA.AGREES.MARS": "The running sub-period echoes Mars's channel at the contact's peak — promise and period point the same way.",
+    "REASON.ASPECT.BENEFIC_ON_RAHU.JUPITER": "Jupiter aspects the transiting Rahu, softening the node's hunger into ambition with a workable plan.",
+
+    "CAUTION.AXIS.NEITHER_FAVORABLE": "Neither node sits in a supportive house from your Moon sign, so the period's general tide does not carry you — results come only through the specific channels named.",
+    "CAUTION.LANDLORD.WEAK": "The lord of the sign Rahu crosses is weak, so the transit's promises arrive reduced and delayed.",
+    "CAUTION.CONTACT.PRESSURE.MOON": "Rahu crossing the Moon stirs restlessness and second-guessing; decisions taken in the peak weeks deserve a night's sleep before signing.",
+    "CAUTION.CONTACT.PRESSURE.SATURN": "Rahu crossing Saturn compresses timelines and raises workload; protect health and do not over-commit in the peak weeks.",
+    "CAUTION.CONTACT.PRESSURE.MARS": "Rahu crossing Mars heats temper and haste; avoid resignations or confrontations fired off in the peak weeks.",
+    "CAUTION.CONTACT.PRESSURE.VENUS": "Rahu crossing Venus can inflate appetites and expenses; keep commitments proportionate in the peak weeks.",
+    "CAUTION.ASPECT.MALEFIC_ON_RAHU.SATURN": "Saturn aspects the transiting Rahu, adding weight and delay to the node's push.",
+    "CAUTION.KETU.TENTH": "Ketu moving through your 10th house can bring a quiet detachment from title and recognition even as results arrive; anchor yourself in the work itself.",
+
+    "EVENT.RAHU.MOON": "Rahu × Moon: influence rises from {date_rise}, peaks near {date_peak}, and fully releases by {date_release}.",
+    "EVENT.RAHU.VENUS": "Rahu × Venus: influence rises from {date_rise}, peaks near {date_peak}, and fully releases by {date_release}.",
+    "EVENT.RAHU.SATURN": "Rahu × Saturn: influence rises from {date_rise}, peaks near {date_peak}, and fully releases by {date_release}.",
+    "EVENT.RAHU.MARS": "Rahu × Mars: influence rises from {date_rise}, peaks near {date_peak}, and fully releases by {date_release}.",
+    "EVENT.GENERIC": "{node} × {planet}: rises {date_rise}, peaks {date_peak}, releases {date_release}."
+  }
+}

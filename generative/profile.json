@@ -1,0 +1,9 @@
+{
+  "_tier": "Tier 2 — profile sentence frames (PROF-01..03)",
+  "_status": "DRAFT v0.1 English — awaiting Machan's correction",
+  "fragments": {
+    "PROF.LAGNA": "You are born under {sign} rising, which sets the basic temperament this report keeps returning to.",
+    "PROF.LAGNA_STAR": "Your ascendant falls in {nakshatra}, a star ruled by {lord}, colouring how your beginnings tend to unfold.",
+    "PROF.LAGNA_LORD": "Your ascendant lord, {planet}, sits in {sign} in your {house}th house, anchoring where your life-effort naturally concentrates."
+  }
+}

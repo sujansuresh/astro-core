@@ -1,0 +1,22 @@
+{
+  "native": {
+    "name": "Sample Native",
+    "gender": "female",
+    "birth_date": "1992-03-02",
+    "birth_time": "22:23",
+    "birth_place": "Dindigul",
+    "ayanamsha": "KP Old"
+  },
+  "lagna": { "sign": "Thulam", "degree": 17.85 },
+  "planets": {
+    "Sun":     { "sign": "Kumbam",  "degree": 18.70 },
+    "Moon":    { "sign": "Makaram", "degree": 28.20 },
+    "Mars":    { "sign": "Makaram", "degree": 16.72 },
+    "Mercury": { "sign": "Meenam",  "degree": 4.42 },
+    "Jupiter": { "sign": "Simmam",  "degree": 15.67, "retrograde": true },
+    "Venus":   { "sign": "Makaram", "degree": 22.38 },
+    "Saturn":  { "sign": "Makaram", "degree": 19.38 },
+    "Rahu":    { "sign": "Dhanus",  "degree": 12.88 },
+    "Ketu":    { "sign": "Mithunam","degree": 12.88 }
+  }
+}

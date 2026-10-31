@@ -1,0 +1,6 @@
+{
+  "domain": "career",
+  "core_bhavas": [2, 6, 10],
+  "modifier_bhavas": [11, 3, 7],
+  "_provenance": "rule-engine/lenses career seed (RULES.md). Core: earnings(2), service/daily work(6), profession/status(10). Modifiers: gains(11), initiative(3), partnership/public dealings(7)."
+}

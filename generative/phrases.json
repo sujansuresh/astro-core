@@ -1,0 +1,15 @@
+{
+  "_tier": "Tier 1 — phrase bank (shared vocabulary, every fact worded exactly once)",
+  "_status": "DRAFT v0.1 English — awaiting Machan's line-by-line correction; corrected version IS the library",
+  "fragments": {
+    "BRIDGE.A.LEAD": "Leading this movement,",
+    "BRIDGE.A.REINFORCE": "This is further strengthened by what follows.",
+    "BRIDGE.B.TEMPER": "And yet, for now,",
+    "BRIDGE.C.WHILE": "While one channel opens,",
+    "TIMING.RISE": "the build-up begins around {date_rise},",
+    "TIMING.PEAK": "stands at its peak near {date_peak},",
+    "TIMING.RELEASE": "and has fully released by {date_release}.",
+    "AXIS.ON_MOON_AXIS": "This transit sits directly on your birth-sign axis, so the coming months move both your inner base and your public standing.",
+    "AXIS.OFF_AXIS": "This transit works a quieter axis of your chart, so its effects arrive through specific channels rather than as a general tide."
+  }
+}

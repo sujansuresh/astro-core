@@ -1,0 +1,7 @@
+{
+  "node": "Rahu",
+  "sign": "Makaram",
+  "ingress": "2026-12-07",
+  "speed_deg_per_day": 0.05295,
+  "_provenance": "panchangam JSON from the software (framework source #2). Ingress per 'Astro Predictors' print; byte-parity pending GK-02/GK-03."
+}

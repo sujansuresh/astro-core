@@ -1,0 +1,15 @@
+{
+  "_provenance": "FUNC-01 matrix (foundations/functional-nature.md). Thulam panel verified against Machan's sample chart; remaining lagnas are standard Parashari defaults awaiting his GK-11 corrections. Values: benefic / malefic / neutral / yogakaraka.",
+  "Mesham":    { "Sun": "benefic",  "Moon": "neutral",  "Mars": "neutral",  "Mercury": "malefic", "Jupiter": "malefic", "Venus": "malefic", "Saturn": "yogakaraka" },
+  "Rishabam":  { "Sun": "neutral",  "Moon": "malefic",  "Mars": "malefic",  "Mercury": "benefic", "Jupiter": "malefic", "Venus": "neutral", "Saturn": "yogakaraka" },
+  "Mithunam":  { "Sun": "malefic",  "Moon": "neutral",  "Mars": "malefic",  "Mercury": "neutral", "Jupiter": "malefic", "Venus": "yogakaraka", "Saturn": "benefic" },
+  "Katakam":   { "Sun": "neutral",  "Moon": "neutral",  "Mars": "yogakaraka", "Mercury": "malefic", "Jupiter": "benefic", "Venus": "malefic", "Saturn": "malefic" },
+  "Simmam":    { "Sun": "neutral",  "Moon": "malefic",  "Mars": "yogakaraka", "Mercury": "malefic", "Jupiter": "benefic", "Venus": "malefic", "Saturn": "malefic" },
+  "Kanni":     { "Sun": "malefic",  "Moon": "neutral",  "Mars": "malefic",  "Mercury": "neutral", "Jupiter": "malefic", "Venus": "yogakaraka", "Saturn": "benefic" },
+  "Thulam":    { "Sun": "malefic",  "Moon": "neutral",  "Mars": "malefic",  "Mercury": "benefic", "Jupiter": "malefic", "Venus": "neutral", "Saturn": "yogakaraka" },
+  "Vrischikam": { "Sun": "benefic", "Moon": "malefic",  "Mars": "neutral",  "Mercury": "malefic", "Jupiter": "benefic", "Venus": "malefic", "Saturn": "malefic" },
+  "Dhanus":    { "Sun": "benefic",  "Moon": "neutral",  "Mars": "benefic",  "Mercury": "malefic", "Jupiter": "neutral", "Venus": "malefic", "Saturn": "malefic" },
+  "Makaram":   { "Sun": "malefic",  "Moon": "malefic",  "Mars": "benefic",  "Mercury": "benefic", "Jupiter": "malefic", "Venus": "yogakaraka", "Saturn": "neutral" },
+  "Kumbam":    { "Sun": "malefic",  "Moon": "malefic",  "Mars": "malefic",  "Mercury": "benefic", "Jupiter": "malefic", "Venus": "yogakaraka", "Saturn": "neutral" },
+  "Meenam":    { "Sun": "neutral",  "Moon": "benefic",  "Mars": "benefic",  "Mercury": "malefic", "Jupiter": "neutral", "Venus": "malefic", "Saturn": "malefic" }
+}
