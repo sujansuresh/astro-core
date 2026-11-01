@@ -470,3 +470,10 @@
 - Engine queues (unchanged, still parked on report read-through): chronological
   ordering (RKT-06), transition frames + intensity lines (RKT-07), star-lord segment
   evaluation (RKT-08/09 once GK-13 feed exists).
+
+## 2026-11-01 — On GitHub
+- Personal repo `sujansuresh/astro-core`, branch **astro-engine** = this project.
+- Local branch `vijay-transit` tracks `origin/astro-engine`.
+- Push path: `git push` (upstream set). Personal SSH alias `github.com-personal`.
+- NOTE: remote `vijay-transit` branch holds an unrelated "Titus Arith" upload —
+  do not force-push over it without Machan's explicit word.

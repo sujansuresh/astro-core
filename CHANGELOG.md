@@ -451,3 +451,13 @@
   principles introduced beyond Machan's stated decisions.
 - **Awaiting Machan**: GK-13 feed decision; Mars/Moon headline ruling; bank/engine
   implementation order for the RKT-06/07/08/09 rendering gaps.
+
+### 2026-11-01 — Project pushed to personal GitHub
+- Repo: `sujansuresh/astro-core`, branch **`astro-engine`** (159 files, commit `8753c6b`).
+- Auth: dedicated SSH keypair `~/.ssh/id_ed25519_github_personal` + host alias
+  `github.com-personal` (ssh.github.com:443 — port 22 blocked on this network).
+  Groww GitHub (gh keyring, HTTPS, sujans_groww) untouched.
+- **Deviation**: remote `vijay-transit` branch was found non-empty (unrelated
+  "Titus Arith" upload, 10 commits, newest 2026-10-31 23:29). Machan chose
+  non-destructive push to a fresh branch `astro-engine`; Titus Arith branches
+  (`main`, `vijay-transit`, `sujansuresh-patch-titusarithmatics`) left as-is.
